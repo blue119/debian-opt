@@ -1,0 +1,37 @@
+# One protected unit/package pattern per line. Matching is case-insensitive.
+# The agent must not disable, mask, stop, remove, or reconfigure matches.
+
+# Display & Window Manager
+xorg
+xserver-xorg*
+awesome
+picom
+lightdm
+sddm
+ly
+dbus
+polkit
+polkitd
+lxpolkit
+
+# Audio & Media
+pipewire*
+wireplumber
+pulseaudio*
+alsa
+
+# Network & Auth
+NetworkManager
+network-manager-gnome
+nm-applet
+wpa_supplicant
+ssh
+sshd
+sudo
+systemd-logind
+
+# Hardware & Power
+upower
+acpid
+udev
+systemd-udevd
